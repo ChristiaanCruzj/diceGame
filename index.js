@@ -9,7 +9,7 @@ image1.setAttribute("src", randomImageSource);// change the attribute src="image
 /// -------Dice 2  ------translate is dado 2
 let randomNumber2 = Math.floor(Math.random() * 6) + 1;
 let randomImageSource2 = "images/dice" + randomNumber2 + ".png";
-
+ 
 let image2 = document.querySelectorAll("img")[1];// select the second img 
 image2.setAttribute("src", randomImageSource2); // change the src
 
